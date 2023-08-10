@@ -1,0 +1,44 @@
+
+.container{
+    color: $color_texto;
+     }
+.videosyt{
+    display: flex;
+    justify-content: center;
+    gap:20px
+}
+
+.carousel-inner {
+    display: flex;
+    justify-content: space-around;
+}
+.carousel-control-prev {
+    left: 20%;}
+
+    .carousel-control-next{
+        right: 20%;
+    }
+    .pareja{
+        display: flex;
+        justify-content: center;
+    }
+    .d-flex{
+        display: flex !important;
+    align-items: center;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-direction: row-reverse;
+}
+
+.navbar-brand{
+    color:aliceblue
+} 
+.navbot{
+    font-family: $font-family_1;
+    font-weight: 600;
+}
+
+.blog{
+    padding-top: 20px;
+    padding-left: 20px;
+}

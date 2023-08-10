@@ -1,0 +1,36 @@
+/*VIAJA SOLA*/
+.titulos-h2 {
+	padding: .625rem;
+}
+.VIAJASOLAFOTOS {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	gap: 30px;
+	margin-left: 150px;
+	margin-right: 100px;
+	margin-top: 30px;
+	object-fit: fill;
+}
+.primeraparte {
+	display: flex;
+	align-items: center;
+	font-size: 21px
+}
+.container-img-viajasola {
+	@include flex-container(center,center);
+	gap: 20px 20px;
+	
+}
+.parrafo1 {
+	padding-right: 20px;
+}
+.segundaparte {
+	display: flex;
+	align-items: center;
+	font-size: 16px
+}
+.item22 {
+	min-width: none;
+	max-width: 500px;
+}

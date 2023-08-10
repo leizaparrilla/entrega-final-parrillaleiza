@@ -1,0 +1,63 @@
+
+
+/*este navbar es para quitar los items y barra de inicio*/
+/*barra de inicio*/
+/*esta parte es del medio*/
+/*espacio entre barra de inicio y foto*/
+header {
+	@include flex-header;
+	background-color: $background-color_inicio;
+	padding: .625rem 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	div {
+		ul {
+			h1 {
+				font-size: 1.25rem;
+				color: $color_rosanavbar;
+				font-family: $font-family_2;
+			}
+		}
+	}
+}
+h1 {
+	justify-content: space-between;
+}
+.navbar {
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	gap: 1.25rem;
+	ul {
+		display: flex;
+		list-style: none;
+	}
+	li {
+		a {
+			&:hover {
+				color: $color_shadow-negro;
+				text-shadow: 5px 5px 5px;
+			}
+			color: $color_texto;
+			font-size: 1.25rem;
+		}
+	}
+}
+.section-principal {
+	text-align: center;
+	color: $color_texto;
+	font-family: $font-family_1;
+	padding-top: 20px;
+}
+
+h1{
+    font-size: 1.25rem ;
+    color: $color_h1;
+    font-family: $font-family_2
+}
+.container-fluid{
+	font-family: $font-family_2;
+}
+
+	
+	

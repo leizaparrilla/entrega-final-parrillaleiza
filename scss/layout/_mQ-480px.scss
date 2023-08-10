@@ -1,0 +1,93 @@
+/*bootstrap*/
+/*viaja sola*/
+/*carreras*/
+
+
+
+@media (max-width:480px) {
+	.navbar {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding-left: 120px;
+	}
+
+
+	
+	.texto {
+		text-align: center;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.img-ruta {
+		img {
+			width: 400px;
+			height: 200px;
+		}
+	}
+	.navboost {
+		display: flex;
+		flex-direction: column;
+		padding-right: 100px;
+	}
+	.h1 {
+		padding-left: 160px;
+	}
+	.item11 {
+		img {
+			width: 150px;
+			height: 250px;
+		}
+	}
+	.item22 {
+		img {
+			width: 150px;
+			height: 250px;
+		}
+	}
+	.item23 {
+		img {
+			width: 350px;
+		}
+	}
+	.todas-las-cards {
+		display: flex;
+		flex-direction: column;
+	}
+	.iconos-grid {
+		display: grid;
+		grid-template-columns: 4;
+		grid-template-rows: 5;
+		padding-top: 20px;
+	}
+	.item1 {
+		grid-column: 5;
+		grid-row: 1;
+	}
+	.item2 {
+		grid-column: 5;
+		grid-row: 2;
+	}
+	.item3 {
+		grid-column: 5;
+		grid-row: 3;
+	}
+	.item4 {
+		grid-column: 5;
+		grid-row: 4;
+	}
+	.item5 {
+		grid-column: 5;
+		grid-row: 5;
+	}
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+    .navbar ul{
+        display: flex;
+        align-items: center;
+    }

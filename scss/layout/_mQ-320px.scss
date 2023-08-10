@@ -1,0 +1,104 @@
+/*bootstrap:*/
+@media (max-width:320px ) {
+	.navbar {
+		display: flex;
+		align-items: center;
+		padding-left: 30px;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	.img-ruta {
+		img {
+			width: 300px;
+			height: 100px;
+			padding-left: 20px;
+		}
+	}
+	.todas-las-cards {
+		flex-direction: column;
+		align-items: center;
+	}
+	.primeraparte {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+	.texto {
+		text-align: center;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.parrafo2 {
+		display: flex;
+		align-items: flex-start;
+		text-align: center;
+		align-content: flex-end;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	.container-img-viajasola {
+		display: flex;
+		justify-content: center;
+	}
+	.item11 {
+		img {
+			width: 120px;
+			height: 200px;
+		}
+	}
+	.item22 {
+		img {
+			width: 120px;
+			height: 200px;
+		}
+	}
+	.item23 {
+		img {
+			width: 250px;
+		}
+	}
+	.h1 {
+		padding-left: 50px;
+		
+	}
+	.navboost {
+		display: flex;
+		flex-direction: column;
+		padding-right: 60px;
+	}
+	.iconos-grid {
+		display: grid;
+		grid-template-columns: 4;
+		grid-template-rows: 5;
+		padding-top: 20px;
+	}
+	.item1 {
+		grid-column: 5;
+		grid-row: 1;
+	}
+	.item2 {
+		grid-column: 5;
+		grid-row: 2;
+	}
+	.item3 {
+		grid-column: 5;
+		grid-row: 3;
+	}
+	.item4 {
+		grid-column: 5;
+		grid-row: 4;
+	}
+	.item5 {
+		grid-column: 5;
+		grid-row: 5;
+	}
+}
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+    .navbar ul{
+        display: flex;
+        align-items: center;
+    }

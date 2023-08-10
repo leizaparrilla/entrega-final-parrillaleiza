@@ -1,0 +1,100 @@
+
+
+.section-cards {
+	@include flex-cards(row,space-evenly,wrap,center);
+	list-style-type: none;
+	padding: 1.25rem 0rem;
+	gap: 1.25rem;
+	color: $color_texto;
+	font-weight: 600;
+	font-family: $font-family_2;
+
+}
+
+.container-cards {
+	display: flex;
+	flex-direction: row;
+}
+.cards {
+	width: 16.875rem;
+	height: fit-content;
+	background-color: $background-colorcard_1;
+	padding: .50rem;
+	box-shadow: 5px 5px 5px $box-shadow-color;
+	border-radius: 5px;
+	div {
+		h1 {
+			padding: .3125rem;
+			color: $colorcard_1;
+			font-weight: 450;
+			font-family: $font-family_2;
+		}
+	}
+}
+.cards:hover{
+	transform: scale(1.1);
+	
+}
+.cards2:hover{
+	transform: scale(1.1);
+}
+.cards2 {
+	width: 16.875rem;
+	min-height: min-content;
+	background-color: $background-colorcard_1;
+	padding: .50rem;
+	box-shadow: 5px 5px 5px $box-shadow-color;
+	border-radius: 5px;
+	font-family: $font-family_2;
+	font-size: 20px;
+}
+
+	h3{
+		font-size: 20px;
+		color: antiquewhite;
+		font-family: $font-family_2;
+	} /*para titulos*/
+	
+
+	
+
+.clase-img-blog1sentada {
+	width: 100%;
+	height: 80;
+	overflow: hidden;
+	img {
+		width: 100%;
+		object-fit: cover;
+	}
+}
+.todas-las-cards {
+	display: flex;
+	flex-direction: row;
+	gap: 30px;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.titulos-h2 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	gap: 20px;
+	margin-top: 20px;
+	color: $colorcard_2;
+	text-decoration: underline;
+}
+.texto {
+	padding: .625rem 0rem;
+	margin-left: 50px;
+	margin-right: 50px;
+	color: $color_texto;
+	font-weight: 600;
+	font-family: $font-family_1;
+	font-size: 16px;
+}
+h3 {
+	color: $color_h3;
+	text-decoration: underline;
+}

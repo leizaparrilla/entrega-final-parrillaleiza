@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+	.navbar {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.container-img-viajasola {
+		display: flex;
+		justify-content: center;
+	}
+	.segundaparte {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+	}
+}
+
+.img-ruta{
+	padding-right: 30px;
+}

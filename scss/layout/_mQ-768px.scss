@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+	.navbar {
+		justify-content: flex-end;
+	}
+	.todas-las-cards {
+		justify-content: center;
+	}
+	.section-principal {
+		justify-content: center;
+	}
+	.inicio {
+		flex-direction: column;
+		align-items: center;
+	}
+	.img-ruta {
+		img {
+			width: 700px;
+			height: 300px;
+		}
+	}
+	.primeraparte {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.segundaparte {
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.videosyt {
+		display: flex;
+		gap: 20px;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+
+.img-ruta img {
+    padding-left: 30px;
+    width: 700px;
+    height: 300px;
+}
+
+
