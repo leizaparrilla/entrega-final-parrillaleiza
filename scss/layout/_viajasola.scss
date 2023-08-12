@@ -11,6 +11,7 @@
 	margin-right: 100px;
 	margin-top: 30px;
 	object-fit: fill;
+	
 }
 .primeraparte {
 	display: flex;
@@ -31,6 +32,29 @@
 	font-size: 16px
 }
 .item22 {
+	border-radius: 20px;
 	min-width: none;
 	max-width: 500px;
+}
+
+.container-img-viajasola{
+	.item22{
+		img{
+			border-radius: 20px;
+		}
+	}
+}
+.container-img-viajasola{
+	.item11{
+		img{
+			border-radius: 20px;
+		}
+	}
+}
+.container-img-viajasola2{
+	.item23{
+		img{
+			border-radius: 20px;
+		}
+	}
 }

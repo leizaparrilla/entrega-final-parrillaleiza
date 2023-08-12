@@ -72,6 +72,10 @@ h1 {
   font-family: "Edu SA Beginner";
 }
 
+.section-principal .img-ruta img {
+  border-radius: 10px;
+}
+
 .section-cards {
   display: flex;
   flex-direction: row;
@@ -215,8 +219,21 @@ h3 {
 }
 
 .item22 {
+  border-radius: 20px;
   min-width: none;
   max-width: 500px;
+}
+
+.container-img-viajasola .item22 img {
+  border-radius: 20px;
+}
+
+.container-img-viajasola .item11 img {
+  border-radius: 20px;
+}
+
+.container-img-viajasola2 .item23 img {
+  border-radius: 20px;
 }
 
 .iconos-grid {
